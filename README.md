@@ -11,4 +11,4 @@ Repositorio con instrucciones para crear un compilador con los siguientes lengua
 -Assembler linux
 
 Para construir la imagen:
-$ docker build -t <nombre de imagen> .
+$ docker build -t [nombre de imagen] .
