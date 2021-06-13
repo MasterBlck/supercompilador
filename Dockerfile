@@ -28,4 +28,10 @@ RUN pacman -Sy gnucobol --noconfirm
 #instalación de compilador básico de COBOL
 RUN pacman -Sy swi-prolog --noconfirm
 
+#Instalación de Git
+RUN pacman -Sy git --noconfirm
+
+#Instalación de Vim
+Run pacman -Sy vim --noconfirm
+
 CMD ["cd", "/usr/devel"]
